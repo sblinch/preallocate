@@ -1,5 +1,7 @@
 // Package preallocate allocates disk space efficiently via syscall (on
 // supported platforms and filesystems) or by writing null bytes.
+//
+// Files opened with O_APPEND are not supported.
 package preallocate
 
 import (
