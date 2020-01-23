@@ -1,6 +1,6 @@
 # preallocate
-[![GoDoc](https://godoc.org/git.sr.ht/~tslocum/preallocate?status.svg)](https://godoc.org/git.sr.ht/~tslocum/preallocate)
-[![builds.sr.ht status](https://builds.sr.ht/~tslocum/preallocate.svg)](https://builds.sr.ht/~tslocum/preallocate?)
+[![GoDoc](https://godoc.org/gitlab.com/tslocum/preallocate?status.svg)](https://godoc.org/gitlab.com/tslocum/preallocate)
+[![CI status](https://gitlab.com/tslocum/preallocate/badges/master/pipeline.svg)](https://gitlab.com/tslocum/preallocate/commits/master)
 [![Donate](https://img.shields.io/liberapay/receives/rocketnine.space.svg?logo=liberapay)](https://liberapay.com/rocketnine.space)
 
 File preallocation library
@@ -14,8 +14,8 @@ File preallocation library
 
 ## Documentation
 
-Docs are hosted on [godoc.org](https://godoc.org/git.sr.ht/~tslocum/preallocate).
+Docs are hosted on [godoc.org](https://godoc.org/gitlab.com/tslocum/preallocate).
 
 ## Support
 
-Issues and suggestions are hosted on [todo.sr.ht](https://todo.sr.ht/~tslocum/preallocate).
+Please share issues/suggestions [here](https://gitlab.com/~tslocum/preallocate/issues).

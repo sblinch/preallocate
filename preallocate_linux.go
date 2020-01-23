@@ -11,7 +11,7 @@ import (
 
 func preallocFile(file *os.File, size int64) error {
 	fd := file.Fd()
-	if fd <= 0 {
+	if fd == 0 {
 		return errors.New("invalid file descriptor")
 	}
 
