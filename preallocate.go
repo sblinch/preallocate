@@ -50,15 +50,21 @@ func WriteSeeker(w io.WriteSeeker, size int64) error {
 
 	var (
 		b         []byte
-		remaining = size
 		wrote     int
 		err       error
+		initialSize int64
 	)
 
-	_, err = w.Seek(0, 0)
+	initialSize, err = w.Seek(0, io.SeekEnd)
 	if err != nil {
 		return err
 	}
+
+	if initialSize >= size {
+		return nil
+	}
+
+	remaining := size - initialSize
 
 	if remaining > NullBufferSize {
 		b = make([]byte, NullBufferSize)
